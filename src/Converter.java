@@ -5,7 +5,7 @@ public class Converter {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Please enter distance in miles:");
+        System.out.print("Pleas enter distance in miles:");
         double distanceInMiles = sc.nextDouble();
 
         System.out.println(distanceInMiles + " miles = " + convertToKm(distanceInMiles) + " km");
